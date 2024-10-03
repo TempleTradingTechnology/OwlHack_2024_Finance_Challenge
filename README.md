@@ -25,7 +25,7 @@ Ensure you have the following installed on your system:
     source venv/bin/activate
     ```
 
-- On macOS/Linux:
+- On windows:
     ```bash
     venv\Scripts\activate
     ```
