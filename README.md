@@ -1,1 +1,0 @@
-# OwlHack_2024_Finance_Challenge
