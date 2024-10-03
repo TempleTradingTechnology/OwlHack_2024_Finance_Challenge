@@ -2,7 +2,6 @@
 Classes for Buy and Hold
 '''
 
-import enum
 import datetime
 import pandas as pd
 import pandas_ta as ta

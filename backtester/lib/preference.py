@@ -40,7 +40,7 @@ class Preference(object):
                         'test_data_dir': os.path.join(_data_root, 'test'),
                         'meta_data_dir': os.path.join(_data_root, 'meta'),
                         'test_input_dir': os.path.join(_test_root, 'output'),
-                        'test_output_dir': os.path.join(os.environ["ROOT_DIR"], os.pardir, 'output'),
+                        'test_output_dir': os.path.abspath(os.path.join(os.environ["ROOT_DIR"], os.pardir, 'output')),
                         'tickers': None, 'port_name': None,
                         'random_seed': None,
                         'risk_free_rate': 0.0,
