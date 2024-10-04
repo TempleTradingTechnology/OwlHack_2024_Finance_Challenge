@@ -22,12 +22,12 @@ Ensure you have the following installed on your system:
 2. **Activate the Virtual Environment**
 - On macOS/Linux:
     ```bash
-    source venv/bin/activate
+    . .venv/bin/activate
     ```
 
 - On windows:
     ```bash
-    venv\Scripts\activate
+    .venv\Scripts\activate
     ```
 3. **Install the Required Dependencies**
 
