@@ -60,7 +60,7 @@ This framework is designed to help you easily backtest trading strategies with m
    Once your custom strategy is written, simply run the `run_backtest.py` script. It will:
    - Execute the backtest using your strategy
    - Generate performance metrics like Cumulative Return, Sharpe Ratio, and Maximum Drawdown
-   - Break down PnL and history in a CSV file
+   - Output trading signals into a CS file
 
 ## More In-Depth Guide
 
